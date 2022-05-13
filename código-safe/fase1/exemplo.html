@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12 + 5</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font: normal 12pt Arial;
+        }
+
+        #cabeca {
+            margin-top: 50px;
+        }
+
+        #corpo {
+            margin-top: 150px;
+        }
+
+        #hidden {
+            margin-top: 220px;
+            font: normal 12pt times;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="cabeca">
+        <p>Posso te chamar de amigo? Quer saber... Vou te chamar de amigo :) </p>
+        <p>Você precisa digitar sua resposta no espaço branco no meio de casa fase, amigo.</p>
+        <p>Por favor não use acentos ou caracteres especiais comigo, sou um puoco limitadu em qestaum de inteligencía</p>
+    </div>
+    <div id="corpo">
+        <p>
+            Insira sua resposta aqui e clique no botão "checar" para conferir -> <input type="text" id="txt">
+             <input type="button" value="checar" onclick="checar()">
+        </p>
+        <p>a primeira resposta está no título, amigo.</p>
+
+        <p id="hidden">
+            Continuo aqui. Dúvidas?
+        </p>
+    </div>
+
+    <script>
+        function checar() {
+            var txt = document.getElementById('txt')
+            var res = txt.value
+
+            if (res == 17) {
+                window.location = 'fase2/desafio1.html'; 
+            } else {
+                window.alert('tente novamente!')
+            }
+        }
+    </script>
+
+</body>
+</html>

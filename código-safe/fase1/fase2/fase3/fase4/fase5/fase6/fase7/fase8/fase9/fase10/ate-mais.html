@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>um "até logo"</title>
+    <style>
+
+        body {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+        }
+
+        #hidden {
+            color: rgb(255, 255, 255);
+            font: normal 12pt Times;
+            margin-top: 200px;
+        }
+
+        #corpo {
+            margin-top:170px;
+        }
+
+        #linkedin {
+            color: aliceblue;
+            width: 30px;
+            height: 30px;
+        }
+
+        #insta {
+            width: 30px;
+            height: 30px;
+            margin-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="corpo">
+        <p>Parabéns por ter chegado tão longe, amigo.</p>
+        <p>Por enquanto nós nos separamos aqui.</p>
+        <p>Espero que você tenha se divertido tanto quanto eu :)</p>
+        <p>
+            Caso queira me apoiar e incentivar a trazer novas fases, por favor visite meus perfis pessoais
+        </p>
+        <p>
+             e dê seu feedback sobre esse pequeno "projeto de final de semana" que fiz com tanto carinho.
+        </p>
+        <p>obrigado por jogar essa alpha</p>
+    </div>
+    
+    <div id="hidden">
+        <a href="https://www.linkedin.com/in/maurício-sosmaiar-nascimento-/" target="_blank" rel="external"><img src="img/logo linkedin.png" alt="" srcset="" id="linkedin"></a>
+        <a href="https://www.instagram.com/m4uriciosn/" target="_blank" rel="external"><img src="img/logo-instagram-png-fundo-transparente.webp" alt="" srcset="" id="insta"></a>
+        <p>em breve em um repositório no github</p>
+    </div>
+
+    <script>
+        function checar() {
+            var txt = document.getElementById('txt')
+            text = txt.value
+            if (text == '') {
+                    window.location = 'fase3/desafio2.html'
+                } else {
+                window.alert('tente novamente!')
+            }
+        }
+    </script>
+</body>
+</html>

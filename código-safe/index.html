@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>olá?</title>
+    <style>
+
+        body {
+            background-color: black;
+            
+        }
+
+        div {
+            text-align: center;
+            font: normal 12pt Arial ;
+            color: snow;
+            margin: auto;
+            margin-top: 210px;
+
+        }
+
+        footer {
+            color: rgb(251, 249, 249);
+            margin-top: 280px;
+            text-align: center;
+            font: normal 10pt Times;
+        }
+
+        #linkedin {
+            color: aliceblue;
+            width: 30px;
+            height: 30px;
+        }
+
+        #insta {
+            width: 30px;
+            height: 30px;
+            margin-left: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>olá... qual seu nome?</p>
+        <p><input type="text" name="text" id="nome"> <input type="button" value="esse é seu nome?" onclick="nome()"> </p><p id="res"></p>
+    </div>
+
+
+    <footer id="hidden">
+        <a href="https://www.linkedin.com/in/maurício-sosmaiar-nascimento-/" target="_blank" rel="external"><img src="img/logo linkedin.png" alt="" srcset="" id="linkedin"></a>
+        <a href="https://www.instagram.com/m4uriciosn/" target="_blank" rel="external"><img src="img/logo-instagram-png-fundo-transparente.webp" alt="" srcset="" id="insta"></a>
+        <p >"Visão é a capacidade de enxergar além do que os olhos são capazes de ver".
+             Estarei aqui quando precisar. Boa sorte"</p>
+    </footer>
+
+    <script>
+        console.log('ola, dev :) meu código é ainda limitado mas estou trabalhando nisso... espero que aproveite a "alpha"')
+
+        function nome() {
+        var nome = document.getElementById('nome')
+        var n = nome.value
+        var res = document.getElementById('res')
+        var hid = document.getElementById('hidden')
+
+        if (n.length == 0) {
+            alert('qual seu nome? :) :) :) :( :)')
+        } else {
+
+            res.innerHTML = `<br>Olá ${n}, você poderia me ajudar???`
+            res.innerHTML += `<br> Ultimamente tenho estado muito solitário, sabe... Há tempos ninguém me visita.`
+            res.innerHTML += `<br> Que tal se nós matarmos o tédio um do outro por um tempo?
+             <a href="fase1/exemplo.html">SIM</a> <a href="https://youtu.be/qs1JNOO7J0Y" target="_blank">NÂO</a>`
+            hid.innerHTML = ``
+            }
+        }
+
+
+    </script>
+
+</body>
+
+</html>
