@@ -8,17 +8,15 @@
     <style>
 
         body {
-            background-color: black;
-            
+            background-color: rgb(0, 0, 0);
         }
 
         div {
             text-align: center;
-            font: normal 12pt Arial ;
+            font: normal 12pt Arial;
             color: snow;
             margin: auto;
-            margin-top: 210px;
-
+            margin-top: 230px;
         }
 
         footer {
@@ -32,12 +30,21 @@
             color: aliceblue;
             width: 30px;
             height: 30px;
+            border-radius: 5px;
         }
 
         #insta {
             width: 30px;
             height: 30px;
             margin-left: 20px;
+            border-radius: 10px;
+        }
+
+        #github {
+            width: 30px;
+            height: 30px;
+            margin-left: 20px;
+            border-radius: 15px;
         }
 
     </style>
@@ -51,8 +58,9 @@
 
 
     <footer id="hidden">
-        <a href="https://www.linkedin.com/in/maurício-sosmaiar-nascimento-/" target="_blank" rel="external"><img src="img/logo linkedin.png" alt="" srcset="" id="linkedin"></a>
-        <a href="https://www.instagram.com/m4uriciosn/" target="_blank" rel="external"><img src="img/logo-instagram-png-fundo-transparente.webp" alt="" srcset="" id="insta"></a>
+        <a href="https://www.linkedin.com/in/maurício-sosmaiar-nascimento-/" target="_blank" rel="external"><img src="img/logo linkedin.png" alt="" srcset="" onmouseenter="color()" onmouseleave="saiu()" id="linkedin"></a>
+        <a href="https://www.instagram.com/m4uriciosn/" target="_blank" rel="external"><img src="img/logo-instagram-png-fundo-transparente.webp" alt="" srcset="" onmouseenter="insta()" onmouseleave="instaiu()" id="insta"></a>
+        <a href="https://github.com/m4uriciosn" target="_blank" rel="external" ><img src="img/github.png" alt="" srcset="" onmouseover="git()" onmouseleave="github()" id="github"></a>
         <p >"Visão é a capacidade de enxergar além do que os olhos são capazes de ver".
              Estarei aqui quando precisar. Boa sorte"</p>
     </footer>
@@ -78,6 +86,35 @@
             }
         }
 
+        function color() {
+        logo = document.querySelector('#linkedin')
+        logo.style.background = 'gray' 
+    }
+
+    function saiu() {
+        logo = document.querySelector('#linkedin')
+        logo.style.background = 'black' 
+    }
+
+    function insta() {
+        ins = document.querySelector('#insta')
+        ins.style.background = 'gray' 
+    }
+
+    function instaiu() {
+        inst = document.querySelector('#insta')
+        inst.style.background = 'black' 
+    }
+
+    function git() {
+        log = document.querySelector('#github')
+        log.style.background = 'gray' 
+    }
+
+    function github() {
+        lo = document.querySelector('#github')
+        lo.style.background = 'black' 
+    }
 
     </script>
 

@@ -4,7 +4,7 @@ function checar() {
     if (text == 'slytherin') {
             window.location = 'fase5/desafio4-slytherin.html'
         } else if ( text == 'sonserina') {
-            alert('try again!!!!!')
+            alert('Try again!!!!! Follow the pattern!!!!')
         } else {
         window.alert('tente novamente!')
     }
