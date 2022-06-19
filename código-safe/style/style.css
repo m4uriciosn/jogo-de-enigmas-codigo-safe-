@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+div {
+    text-align: center;
+    font: normal 12pt Arial;
+    color: snow;
+    margin: auto;
+    margin-top: 230px;
+}
+
+footer {
+    color: rgb(251, 249, 249);
+    margin-top: 280px;
+    text-align: center;
+    font: normal 10pt Times;
+}
+
+#linkedin {
+    color: aliceblue;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#insta {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+#github {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 15px;
+}

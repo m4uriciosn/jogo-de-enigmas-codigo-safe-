@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+#hidden {
+    color: black;
+    font: normal 12pt Times;
+    margin-top: 250px;
+}
+
+#corpo {
+    margin-top: 56px;
+}
+
+#img {
+    margin-top: 50px;
+}

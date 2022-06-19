@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+#img {
+    margin-top: 40px;
+}
+
+#hidden {
+    color: black;
+    font: normal 12pt Times;
+}

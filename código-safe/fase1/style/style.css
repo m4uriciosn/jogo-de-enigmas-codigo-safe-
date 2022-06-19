@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font: normal 12pt Arial;
+}
+
+#cabeca {
+    margin-top: 50px;
+}
+
+#corpo {
+    margin-top: 150px;
+}
+
+#hidden {
+    margin-top: 260px;
+    font: normal 12pt times;
+    color: black;
+}

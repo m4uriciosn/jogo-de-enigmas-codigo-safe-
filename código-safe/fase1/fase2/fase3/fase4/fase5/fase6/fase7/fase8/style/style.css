@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+#hidden {
+    color: black;
+    font: normal 12pt Times;
+    margin-left: 1150px;
+    margin-top: 270px;
+}
+
+#corpo {
+    margin-top: 48px;
+}

@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+#hidden {
+    color: black;
+    margin-top: 250px;
+    font: normal 12pt Times;
+}
+
+#corpo {
+    margin-top: 260px;
+}
